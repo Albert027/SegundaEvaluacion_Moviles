@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/ContadorIMG"
+        android:layout_width="30dp"
+        android:layout_height="95dp"
+        android:layout_margin="5dp"
+        android:text="1"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="95dp"
+        android:id="@+id/VistaImagen"
+        android:layout_alignTop="@+id/ContadorIMG"
+        android:layout_toEndOf="@+id/ContadorIMG"
+        android:background="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/TxtRuta"
+        android:layout_width="175dp"
+        android:layout_height="95dp"
+        android:layout_alignTop="@+id/VistaImagen"
+        android:layout_toEndOf="@+id/VistaImagen"
+        android:gravity="center"
+        android:text="/Prueba/PruebaIMG"
+        android:textAlignment="center" />
+
+</RelativeLayout>
